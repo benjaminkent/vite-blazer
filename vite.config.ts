@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue(), svgLoader()],
   server: {
     port: 3000,
-    open: false,
+    open: true,
   },
   resolve: {
     alias: {
