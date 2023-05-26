@@ -26,42 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { useDemoStore } from '@/stores/demo';
 
-const infoData = computed(() => [
-  {
-    title: 'Recommended IDE',
-    links: [
-      {
-        name: 'VS Code',
-        link: 'https://code.visualstudio.com/',
-      },
-      {
-        name: 'Volar',
-        link: 'https://marketplace.visualstudio.com/items?itemName=Vue.volar',
-      },
-    ],
-  },
-  {
-    title: 'Documentation',
-    links: [
-      {
-        name: 'Vite',
-        link: 'https://vitejs.dev/',
-      },
-      {
-        name: 'Vue3',
-        link: 'https://vuejs.org/guide/introduction.html',
-      },
-      {
-        name: 'Pinia',
-        link: 'https://pinia.vuejs.org/introduction.html',
-      },
-      {
-        name: 'Vue Router 4',
-        link: 'https://router.vuejs.org/guide/',
-      },
-    ],
-  },
-]);
+const { infoData } = useDemoStore();
 </script>
