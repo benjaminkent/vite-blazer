@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <VueLogo />
-    <h1 class="text-green-600">{{ demoState.title }}</h1>
+  <div class="flex flex-col items-center gap-8 bg-gray-900 h-screen pt-28">
+    <VueLogo class="text-4xl" />
+    <h1 class="text-vue-green text-xl font-bold">{{ demoState.title }}</h1>
   </div>
 </template>
 
