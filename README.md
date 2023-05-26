@@ -1,27 +1,55 @@
-# Vue 3 + TypeScript + Vite
+## Vite + Vue3 + Vue Router 4 + TS + TailwindCss + Pinia + Axios + Prettier
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This template should help get you started developing with Vue 3 and TypeScript in Vite. It comes with Vue Router, Pinia and TailwindCSS already installed with example code for each.
 
-## Recommended IDE Setup
+## Recommended IDE Setup:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VS Code](https://code.visualstudio.com/)
 
-## Type Support For `.vue` Imports in TS
+[Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Try it out!
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+I recommend using [`degit`](https://www.npmjs.com/package/degit) to clone the repository from Github. If you don't already have `degit` installed, run:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
+```bash
 npm install -g degit
-link for degit https://www.npmjs.com/package/degit
+```
 
-npx degit benjaminkent/vite-tailwind-vue-router-pinia my-new-project
+### Clone the template:
 
+```bash
+npx degit benjaminkent/vite-tailwind-vue-router-pinia my-new-project-name
+```
+
+### Go to prject and install dependencies:
+
+```bash
+cd my-new-project-name
+```
+
+```bash
 npm i
+```
 
+### Run the project:
+
+```bash
+npm run dev
+```
+
+### Create production build:
+
+```bash
+npm run build
+```
+
+And see newly created /dist folder with built assets.
+
+### Initiate project as git repository
+
+```bash
 git init
+```
+
+Follow instructions from git for adding remote url and pushing to your own repository.
