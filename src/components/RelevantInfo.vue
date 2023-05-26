@@ -8,7 +8,7 @@
             <li v-for="(link, index) in info.links" :key="index">
               <a
                 :href="link.link"
-                class="underline"
+                class="underline hover:text-green-600"
                 :title="link.name"
                 target="_blank"
                 rel="noopener noreferrer"
