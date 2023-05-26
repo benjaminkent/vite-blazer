@@ -7,8 +7,8 @@
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
-import { useDemoStore } from '../stores/demo';
-import VueLogo from '../assets/vue-logo.svg?component';
+import { useDemoStore } from '@/stores/demo';
+import VueLogo from '@/assets/vue-logo.svg?component';
 
 const { demoState } = storeToRefs(useDemoStore());
 </script>
