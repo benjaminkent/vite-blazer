@@ -2,8 +2,8 @@
   <div class="text-vue-green">
     <div>
       <ul>
-        <li v-for="info in infoData" :key="info.title">
-          <p class="font-bold mt-5">{{ info.title }}:</p>
+        <li v-for="info in infoData" :key="info.title" class="last:mt-5">
+          <p class="font-bold">{{ info.title }}:</p>
           <ul class="flex">
             <li v-for="(link, index) in info.links" :key="index">
               <a

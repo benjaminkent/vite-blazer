@@ -4,7 +4,15 @@
       <ViteLogo />
       <VueLogo class="text-4xl" />
     </div>
-    <h1 class="text-vue-green text-xl font-bold">{{ demoState.title }}</h1>
+    <div>
+      <h1
+        v-for="(title, index) in demoState.title"
+        class="text-vue-green text-xl font-bold"
+        :key="index"
+      >
+        {{ title }}
+      </h1>
+    </div>
     <RelevantInfo />
   </div>
 </template>
