@@ -25,4 +25,5 @@ import ViteLogo from '@/assets/vite-logo.svg?component';
 import RelevantInfo from '@/components/RelevantInfo.vue';
 
 const { demoState } = storeToRefs(useDemoStore());
+const foo = '';
 </script>
