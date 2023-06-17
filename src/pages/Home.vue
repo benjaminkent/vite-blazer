@@ -4,7 +4,7 @@
       <ViteLogo />
       <VueLogo class="text-4xl" />
     </div>
-    <div>
+    <div class="mt-3">
       <h1
         v-for="(title, index) in demoState.title"
         class="text-vue-green text-xl font-bold"
