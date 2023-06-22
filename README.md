@@ -19,7 +19,7 @@ npm install -g degit
 ### Clone the template:
 
 ```bash
-npx degit benjaminkent/vite-tailwind-vue-router-pinia my-new-project-name
+npx degit benjaminkent/vite-blazer my-new-project-name
 ```
 
 ### Go to prject and install dependencies:
